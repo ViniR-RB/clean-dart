@@ -11,9 +11,7 @@ class AppWidget extends StatefulWidget {
 class _AppWidgetState extends State<AppWidget> {
   @override
   Widget build(BuildContext context) {
-     return MaterialApp.router(
-      
-      supportedLocales: const [Locale("pt", "BR")],
+    return MaterialApp.router(
       title: 'My App',
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark(),
